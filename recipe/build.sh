@@ -9,10 +9,12 @@ else
   export PATH=$JAVA_HOME/bin:$PATH
 fi
 
-ln -s "$PREFIX/lib" "$PREFIX/lib64"
+if [! -d "$PREFIX/lib64" ]; then
+  ln -s "$PREFIX/lib" "$PREFIX/lib64"
+fi
 
 ./configure --prefix=$PREFIX --without-mpi --with-boost=$PREFIX/include
 make
 make install
 
-rm "$PREFIX"/lib64
+rm "$PREFIX"/lib64 || echo "Unable to remove $PREFIX/lib64"
