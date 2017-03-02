@@ -9,7 +9,7 @@ else
   export PATH=$JAVA_HOME/bin:$PATH
 fi
 
-if [! -d "$PREFIX/lib64" ]; then
+if [ ! -d "$PREFIX/lib64" ]; then
   ln -s "$PREFIX/lib" "$PREFIX/lib64"
 fi
 
