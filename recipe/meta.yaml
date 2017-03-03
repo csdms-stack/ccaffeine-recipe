@@ -13,7 +13,7 @@ source:
 
 requirements:
   build:
-    - python
+    - python >=2.7.13
     - libxml2
     - cca-spec-babel
     - cca-babel
@@ -22,7 +22,7 @@ requirements:
     - ncurses
 
   run:
-    - python
+    - python >=2.7.13
     - libxml2
     - cca-spec-babel
     - cca-babel
