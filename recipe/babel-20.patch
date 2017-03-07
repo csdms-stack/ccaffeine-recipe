@@ -1,0 +1,14 @@
+diff --git a/cxx/Makefile.Rules.in b/cxx/Makefile.Rules.in
+index 3c6b6fd..ae1876b 100644
+--- a/cxx/Makefile.Rules.in
++++ b/cxx/Makefile.Rules.in
+@@ -297,6 +297,9 @@ endif
+ ifeq "$(CCASPEC_BABEL_VERSION)" "1.4.0"
+ CCAFE_BABEL_BUGS= -DHAVE_BABEL=140
+ endif
++ifeq "$(CCASPEC_BABEL_VERSION)" "2.0.0"
++CCAFE_BABEL_BUGS= -DHAVE_BABEL=200
++endif
+ # support for regular babel releases and known-ok dev branches
+ # should be inserted above.
+ #############

@@ -8,26 +8,30 @@ package:
 source:
   git_url: https://github.com/csdms/{{ name }}
   patches:
+    - fix-header-block-names.patch
+    - babel-20.patch
     - cxxflags-linux.patch [linux]
     - cxxflags-osx.patch [osx]
 
 requirements:
   build:
-    - python >=2.7.13
+    - python >=2.7.13,<3
     - libxml2
     - cca-spec-babel
-    - cca-babel
+    - cca-babel >=2
     - boost-headers 1.34
     - readline
     - ncurses
 
   run:
-    - python >=2.7.13
+    - python >=2.7.13,<3
     - libxml2
     - cca-spec-babel
-    - cca-babel
+    - cca-babel >=2
     - readline
     - ncurses
 
 build:
   number: 0
+  features:
+    - cb20

@@ -1,0 +1,1073 @@
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_AbstractFramework_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_AbstractFramework_Impl.hxx
+index 1fad20d..d3c9393 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_AbstractFramework_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_AbstractFramework_Impl.hxx
+@@ -43,7 +43,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.AbstractFramework._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.AbstractFramework._hincludes)
+ 
+ #include <vector>
+ #include <map>
+@@ -70,7 +70,7 @@
+ #include "dc/babel.new/babel-cca/server/ccaffeine_Services.hxx"
+ #include "util/StringTools.hh"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.AbstractFramework._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.AbstractFramework._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -248,8 +248,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.AbstractFramework._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.AbstractFramework._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.AbstractFramework._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.AbstractFramework._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_CCAException_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_CCAException_Impl.hxx
+index c31493b..cfb3d10 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_CCAException_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_CCAException_Impl.hxx
+@@ -34,9 +34,9 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.CCAException._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.CCAException._hincludes)
+ // Put additional includes or other arbitrary code here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.CCAException._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.CCAException._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -100,8 +100,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.CCAException._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.CCAException._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.CCAException._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.CCAException._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentClassDescription_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentClassDescription_Impl.hxx
+index ea237d2..0f94441 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentClassDescription_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentClassDescription_Impl.hxx
+@@ -34,11 +34,11 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentClassDescription._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentClassDescription._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include "dc/export/AllExport.hh"
+ #include "ccaffeine_CCAException.hxx"
+-// DO-NOT-DELETE splicer.end(ccaffeine.ComponentClassDescription._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ComponentClassDescription._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -119,8 +119,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentClassDescription._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentClassDescription._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ComponentClassDescription._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ComponentClassDescription._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentID_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentID_Impl.hxx
+index 4412e03..f27756c 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentID_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ComponentID_Impl.hxx
+@@ -34,13 +34,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentID._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentID._hincludes)
+ 
+ #include "dc/export/AllExport.hh"
+ #include "gov_cca_ComponentID.hxx"
+ 
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ComponentID._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ComponentID._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -154,8 +154,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentID._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ComponentID._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ComponentID._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ComponentID._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionEventService_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionEventService_Impl.hxx
+index b3f7d4d..ceeb8ef 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionEventService_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionEventService_Impl.hxx
+@@ -37,7 +37,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionEventService._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionEventService._hincludes)
+ 
+ #include <map>
+ #include <boost/shared_ptr.hpp>
+@@ -53,7 +53,7 @@
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionEventService._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionEventService._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -145,8 +145,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionEventService._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionEventService._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionEventService._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionEventService._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionID_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionID_Impl.hxx
+index 6282b6b..91303d6 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionID_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ConnectionID_Impl.hxx
+@@ -37,7 +37,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionID._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionID._hincludes)
+ #include "dc/export/AllExport.hh"
+ #include "dc/framework/KernelPort.h"
+ #include <AllCCA.hh>
+@@ -47,7 +47,7 @@
+ #include "ccaffeine_CCAException.hxx"
+ #include "dc/babel.new/ccafe-bind/AllCcafeBind.hh"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionID._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionID._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -162,8 +162,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionID._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ConnectionID._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionID._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ConnectionID._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_PortTranslator_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_PortTranslator_Impl.hxx
+index fc5f9d7..6dfff27 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_PortTranslator_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_PortTranslator_Impl.hxx
+@@ -28,12 +28,12 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.PortTranslator._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.PortTranslator._hincludes)
+ 
+ #include "dc/export/AllExport.hh"
+ #include "dc/classic/ccafe-bind/AllCcafeBind.hh"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.PortTranslator._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.PortTranslator._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -149,8 +149,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.PortTranslator._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.PortTranslator._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.PortTranslator._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.PortTranslator._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_Services_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_Services_Impl.hxx
+index 322007b..497d5d5 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_Services_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_Services_Impl.hxx
+@@ -46,7 +46,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.Services._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.Services._hincludes)
+ #include <map>
+ #include <string>
+ #include <vector>
+@@ -66,7 +66,7 @@
+ //#include <ports/AllEvents.h> // hacked cca-spec-bbel ports
+ 
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.Services._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.Services._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -434,7 +434,7 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.Services._misc)
+-// DO-NOT-DELETE splicer.end(ccaffeine.Services._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.Services._hmisc)
++// DO-NOT-DELETE splicer.end(ccaffeine.Services._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMap_Impl.hxx
+index afe3cc1..cc31431 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMap_Impl.hxx
+@@ -40,7 +40,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMap._hincludes)
+ // #include <map>
+ // #include <utility> // need pair<T,U>
+ #include "dc/export/AllExport.hh"
+@@ -52,7 +52,7 @@
+  * implementations of the sort that require reinterpret cast.
+  * 
+  */
+-// DO-NOT-DELETE splicer.end(ccaffeine.TypeMap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.TypeMap._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -582,8 +582,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMap._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.TypeMap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.TypeMap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMismatchException_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMismatchException_Impl.hxx
+index c73b0b9..3241e6b 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMismatchException_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_TypeMismatchException_Impl.hxx
+@@ -37,9 +37,9 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMismatchException._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMismatchException._hincludes)
+ // Put additional includes or other arbitrary code here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.TypeMismatchException._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.TypeMismatchException._hincludes)
+ 
+ namespace ccaffeine { 
+ 
+@@ -121,8 +121,8 @@ namespace ccaffeine {
+ 
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMismatchException._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.TypeMismatchException._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.TypeMismatchException._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.TypeMismatchException._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BasicParameterPortWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BasicParameterPortWrap_Impl.hxx
+index 86471ec..c849315 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BasicParameterPortWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BasicParameterPortWrap_Impl.hxx
+@@ -37,13 +37,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BasicParameterPortWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BasicParameterPortWrap._hincludes)
+ 
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.BasicParameterPortWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.BasicParameterPortWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -164,11 +164,11 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BasicParameterPortWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BasicParameterPortWrap._hmisc)
+ // Put miscellaneous things here...
+ int ccaffeine_ports_BasicParameterPortWrap_qc(int argc, char *argv[]);
+ // -Dccaffeine_ports_BasicParameterPortWrap_MAIN causes
+ // main() to be defined for instantiation link completeness test.
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.BasicParameterPortWrap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.BasicParameterPortWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BuilderService_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BuilderService_Impl.hxx
+index 8c4e478..4ce4fd1 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BuilderService_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_BuilderService_Impl.hxx
+@@ -43,7 +43,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BuilderService._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BuilderService._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include <map>
+ #include "dc/export/AllExport.hh"
+@@ -51,7 +51,7 @@
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ #include "dc/babel.new/ccafe-bind/AllCcafeBind.hh"
+ #include "util/IO.h"
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.BuilderService._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.BuilderService._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -429,8 +429,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BuilderService._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.BuilderService._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.BuilderService._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.BuilderService._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ComponentRepository_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ComponentRepository_Impl.hxx
+index 78cb1a0..830a5c2 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ComponentRepository_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ComponentRepository_Impl.hxx
+@@ -37,9 +37,9 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ComponentRepository._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ComponentRepository._hincludes)
+ // Put additional includes or other arbitrary code here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ComponentRepository._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ComponentRepository._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -108,8 +108,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ComponentRepository._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ComponentRepository._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ComponentRepository._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ComponentRepository._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ConnectionEvent_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ConnectionEvent_Impl.hxx
+index d998ba2..ef0eae9 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ConnectionEvent_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ConnectionEvent_Impl.hxx
+@@ -37,9 +37,9 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ConnectionEvent._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ConnectionEvent._hincludes)
+ // Put additional includes or other arbitrary code here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ConnectionEvent._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ConnectionEvent._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -159,8 +159,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ConnectionEvent._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ConnectionEvent._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ConnectionEvent._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ConnectionEvent._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GUIServiceWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GUIServiceWrap_Impl.hxx
+index cabf4cc..99b49ee 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GUIServiceWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GUIServiceWrap_Impl.hxx
+@@ -33,12 +33,12 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GUIServiceWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GUIServiceWrap._hincludes)
+ #include "dc/export/AllExport.hh"
+ #include "gov_cca.hxx"
+ #include "dc/babel.new/babel-cca/server/ccaffeine.hxx"
+ #include "dc/babel.new/babel-cca/server/ccaffeine_ports.hxx"
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.GUIServiceWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.GUIServiceWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -150,8 +150,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GUIServiceWrap._misc)
+-// Insert-Code-Here {ccaffeine.ports.GUIServiceWrap._misc} (miscellaneous things)
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.GUIServiceWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GUIServiceWrap._hmisc)
++// Insert-Code-Here {ccaffeine.ports.GUIServiceWrap._hmisc} (miscellaneous things)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.GUIServiceWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GoPortWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GoPortWrap_Impl.hxx
+index e2fcf96..b045b8d 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GoPortWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_GoPortWrap_Impl.hxx
+@@ -33,13 +33,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GoPortWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GoPortWrap._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.GoPortWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.GoPortWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -128,8 +128,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GoPortWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.GoPortWrap._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.GoPortWrap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.GoPortWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortFactoryWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortFactoryWrap_Impl.hxx
+index 858c0a6..ff3d679 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortFactoryWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortFactoryWrap_Impl.hxx
+@@ -46,12 +46,12 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortFactoryWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortFactoryWrap._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortFactoryWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortFactoryWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -542,8 +542,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortFactoryWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortFactoryWrap._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortFactoryWrap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortFactoryWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortWrap_Impl.hxx
+index b64a382..6f47145 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ParameterPortWrap_Impl.hxx
+@@ -37,7 +37,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortWrap._hincludes)
+ 
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+@@ -45,7 +45,7 @@
+ // #include "dc/babel.new/ccafe-bind/AllCcafeBind.hh"
+ // #include "util/IO.h"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -629,11 +629,11 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ParameterPortWrap._hmisc)
+ // Put miscellaneous things here...
+ int ccaffeine_ports_ParameterPortWrap_qc(int argc, char *argv[]);
+ // -Dccaffeine_ports_ParameterPortWrap_MAIN causes
+ // main() to be defined for instantiation link completeness test.
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortWrap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ParameterPortWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_PortTranslator_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_PortTranslator_Impl.hxx
+index 91eb31d..e9de5c6 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_PortTranslator_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_PortTranslator_Impl.hxx
+@@ -31,12 +31,12 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.PortTranslator._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.PortTranslator._hincludes)
+ 
+ #include "dc/export/AllExport.hh"
+ #include "dc/classic/ccafe-bind/AllCcafeBind.hh"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.PortTranslator._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.PortTranslator._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -192,8 +192,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.PortTranslator._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.PortTranslator._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.PortTranslator._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.PortTranslator._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ServiceRegistryWrap_Impl.hxx b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ServiceRegistryWrap_Impl.hxx
+index ab2610d..bf80d62 100644
+--- a/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ServiceRegistryWrap_Impl.hxx
++++ b/cxx/dc/babel.new/babel-cca/ccaffeine_ports_ServiceRegistryWrap_Impl.hxx
+@@ -39,13 +39,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ServiceRegistryWrap._includes)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ServiceRegistryWrap._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include "dc/export/AllExport.hh"
+ #include "AllCCA.hh"
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ServiceRegistryWrap._includes)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ServiceRegistryWrap._hincludes)
+ 
+ namespace ccaffeine { 
+   namespace ports { 
+@@ -186,8 +186,8 @@ namespace ccaffeine {
+   } // end namespace ports
+ } // end namespace ccaffeine
+ 
+-// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ServiceRegistryWrap._misc)
++// DO-NOT-DELETE splicer.begin(ccaffeine.ports.ServiceRegistryWrap._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccaffeine.ports.ServiceRegistryWrap._misc)
++// DO-NOT-DELETE splicer.end(ccaffeine.ports.ServiceRegistryWrap._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/BasicParameterPortTest/ccafe5_BasicParameterPortTest_Impl.hxx b/cxx/dc/babel.new/component/BasicParameterPortTest/ccafe5_BasicParameterPortTest_Impl.hxx
+index 039895c..f577312 100644
+--- a/cxx/dc/babel.new/component/BasicParameterPortTest/ccafe5_BasicParameterPortTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/BasicParameterPortTest/ccafe5_BasicParameterPortTest_Impl.hxx
+@@ -53,7 +53,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.BasicParameterPortTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe5.BasicParameterPortTest._hincludes)
+ 
+ #include "dc/babel.new/babel-cca/server/ccaffeine_TypeMap.hxx"
+ #include "gov_cca_ports_GoPort.hxx"
+@@ -61,7 +61,7 @@
+ // arg FIXME
+ #include "gov_cca.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe5.BasicParameterPortTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe5.BasicParameterPortTest._hincludes)
+ 
+ namespace ccafe5 { 
+ 
+@@ -185,8 +185,8 @@ namespace ccafe5 {
+ 
+ } // end namespace ccafe5
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.BasicParameterPortTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe5.BasicParameterPortTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe5.BasicParameterPortTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe5.BasicParameterPortTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/ConnectionEventServiceTest/ccafe4_ConnectionEventServiceTest_Impl.hxx b/cxx/dc/babel.new/component/ConnectionEventServiceTest/ccafe4_ConnectionEventServiceTest_Impl.hxx
+index b3f9523..16a546f 100644
+--- a/cxx/dc/babel.new/component/ConnectionEventServiceTest/ccafe4_ConnectionEventServiceTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/ConnectionEventServiceTest/ccafe4_ConnectionEventServiceTest_Impl.hxx
+@@ -40,7 +40,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe4.ConnectionEventServiceTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe4.ConnectionEventServiceTest._hincludes)
+ 
+ #include "gov_cca_ports_ConnectionEventService.hxx"
+ #include "ccafe3_StringConsumerPort.hxx"
+@@ -49,7 +49,7 @@
+ // arg FIXME
+ #include "gov_cca.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe4.ConnectionEventServiceTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe4.ConnectionEventServiceTest._hincludes)
+ 
+ namespace ccafe4 { 
+ 
+@@ -208,8 +208,8 @@ namespace ccafe4 {
+ 
+ } // end namespace ccafe4
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe4.ConnectionEventServiceTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe4.ConnectionEventServiceTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe4.ConnectionEventServiceTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe4.ConnectionEventServiceTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/GUIServiceTest/ccafe5_GUIServiceTest_Impl.hxx b/cxx/dc/babel.new/component/GUIServiceTest/ccafe5_GUIServiceTest_Impl.hxx
+index e79bb78..b8c7365 100644
+--- a/cxx/dc/babel.new/component/GUIServiceTest/ccafe5_GUIServiceTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/GUIServiceTest/ccafe5_GUIServiceTest_Impl.hxx
+@@ -34,7 +34,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.GUIServiceTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe5.GUIServiceTest._hincludes)
+ 
+ #include "dc/babel.new/babel-cca/server/ccaffeine_TypeMap.hxx"
+ #include "gov_cca_ports_GoPort.hxx"
+@@ -43,7 +43,7 @@
+ // we hate doing this FIXME
+ #include "gov_cca.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe5.GUIServiceTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe5.GUIServiceTest._hincludes)
+ 
+ namespace ccafe5 { 
+ 
+@@ -122,8 +122,8 @@ namespace ccafe5 {
+ 
+ } // end namespace ccafe5
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.GUIServiceTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe5.GUIServiceTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe5.GUIServiceTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe5.GUIServiceTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/GoComponent/ccafe5_GoComponent_Impl.hxx b/cxx/dc/babel.new/component/GoComponent/ccafe5_GoComponent_Impl.hxx
+index 49f820f..db4a6b6 100644
+--- a/cxx/dc/babel.new/component/GoComponent/ccafe5_GoComponent_Impl.hxx
++++ b/cxx/dc/babel.new/component/GoComponent/ccafe5_GoComponent_Impl.hxx
+@@ -34,7 +34,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.GoComponent._includes)
++// DO-NOT-DELETE splicer.begin(ccafe5.GoComponent._hincludes)
+ 
+ #include "dc/babel.new/babel-cca/server/ccaffeine_TypeMap.hxx"
+ #include "gov_cca_ports_GoPort.hxx"
+@@ -42,7 +42,7 @@
+ // arg FIXME
+ #include "gov_cca.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe5.GoComponent._includes)
++// DO-NOT-DELETE splicer.end(ccafe5.GoComponent._hincludes)
+ 
+ namespace ccafe5 { 
+ 
+@@ -121,8 +121,8 @@ namespace ccafe5 {
+ 
+ } // end namespace ccafe5
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe5.GoComponent._misc)
++// DO-NOT-DELETE splicer.begin(ccafe5.GoComponent._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe5.GoComponent._misc)
++// DO-NOT-DELETE splicer.end(ccafe5.GoComponent._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/MPIComponent/ccafe6_MPIComponent_Impl.hxx b/cxx/dc/babel.new/component/MPIComponent/ccafe6_MPIComponent_Impl.hxx
+index 0c6d1a5..5a3c140 100644
+--- a/cxx/dc/babel.new/component/MPIComponent/ccafe6_MPIComponent_Impl.hxx
++++ b/cxx/dc/babel.new/component/MPIComponent/ccafe6_MPIComponent_Impl.hxx
+@@ -40,7 +40,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe6.MPIComponent._includes)
++// DO-NOT-DELETE splicer.begin(ccafe6.MPIComponent._hincludes)
+ 
+ #include "util/IO.h"
+ #include "dc/babel.new/babel-cca/server/ccaffeine_ports_MPIService.hxx"
+@@ -52,7 +52,7 @@ namespace ccafe6 {
+ 	class MPIService_Impl;
+ }
+ 
+-// DO-NOT-DELETE splicer.end(ccafe6.MPIComponent._includes)
++// DO-NOT-DELETE splicer.end(ccafe6.MPIComponent._hincludes)
+ 
+ namespace ccafe6 { 
+ 
+@@ -264,8 +264,8 @@ namespace ccafe6 {
+ 
+ } // end namespace ccafe6
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe6.MPIComponent._misc)
++// DO-NOT-DELETE splicer.begin(ccafe6.MPIComponent._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe6.MPIComponent._misc)
++// DO-NOT-DELETE splicer.end(ccafe6.MPIComponent._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/ParameterDialogServiceTest/ccafe1_ParameterDialogServiceTest_Impl.hxx b/cxx/dc/babel.new/component/ParameterDialogServiceTest/ccafe1_ParameterDialogServiceTest_Impl.hxx
+index 7b5e869..53cdc42 100644
+--- a/cxx/dc/babel.new/component/ParameterDialogServiceTest/ccafe1_ParameterDialogServiceTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/ParameterDialogServiceTest/ccafe1_ParameterDialogServiceTest_Impl.hxx
+@@ -34,14 +34,14 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe1.ParameterDialogServiceTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe1.ParameterDialogServiceTest._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include "dc/babel.new/babel-cca/server/ccaffeine_ports_ParameterDialogService.hxx"
+ #include "gov_cca_ports_GoPort.hxx"
+ #include "util/IO.h"
+ #include <vector>
+ 
+-// DO-NOT-DELETE splicer.end(ccafe1.ParameterDialogServiceTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe1.ParameterDialogServiceTest._hincludes)
+ 
+ namespace ccafe1 { 
+ 
+@@ -123,8 +123,8 @@ namespace ccafe1 {
+ 
+ } // end namespace ccafe1
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe1.ParameterDialogServiceTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe1.ParameterDialogServiceTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe1.ParameterDialogServiceTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe1.ParameterDialogServiceTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/ParameterPortFactoryTest/ccafe4_ParameterPortFactoryTest_Impl.hxx b/cxx/dc/babel.new/component/ParameterPortFactoryTest/ccafe4_ParameterPortFactoryTest_Impl.hxx
+index 4f940d8..fefc448 100644
+--- a/cxx/dc/babel.new/component/ParameterPortFactoryTest/ccafe4_ParameterPortFactoryTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/ParameterPortFactoryTest/ccafe4_ParameterPortFactoryTest_Impl.hxx
+@@ -37,7 +37,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe4.ParameterPortFactoryTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe4.ParameterPortFactoryTest._hincludes)
+ 
+ #include "gov_cca_ports_ParameterPortFactory.hxx"
+ #include "gov_cca_ports_ParameterPort.hxx"
+@@ -47,7 +47,7 @@
+ // arg FIXME
+ #include "gov_cca.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe4.ParameterPortFactoryTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe4.ParameterPortFactoryTest._hincludes)
+ 
+ namespace ccafe4 { 
+ 
+@@ -168,8 +168,8 @@ namespace ccafe4 {
+ 
+ } // end namespace ccafe4
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe4.ParameterPortFactoryTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe4.ParameterPortFactoryTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe4.ParameterPortFactoryTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe4.ParameterPortFactoryTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/PortTranslatorStarter/ccafe_eg_PortTranslatorStarter_Impl.hxx b/cxx/dc/babel.new/component/PortTranslatorStarter/ccafe_eg_PortTranslatorStarter_Impl.hxx
+index 13e2199..0c79f1c 100644
+--- a/cxx/dc/babel.new/component/PortTranslatorStarter/ccafe_eg_PortTranslatorStarter_Impl.hxx
++++ b/cxx/dc/babel.new/component/PortTranslatorStarter/ccafe_eg_PortTranslatorStarter_Impl.hxx
+@@ -46,7 +46,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe.eg.PortTranslatorStarter._includes)
++// DO-NOT-DELETE splicer.begin(ccafe.eg.PortTranslatorStarter._hincludes)
+ #include "cca.h"
+ #include "dc/babel.new/component/StringConsumerPort/server/ccafe3_StringConsumerPort.hxx"
+ #include "dc/babel.new/babel-cca/server/ccaffeine_TypeMap.hxx"
+@@ -57,7 +57,7 @@
+ #include "port/supportInterfaces.h"
+ 
+ 
+-// DO-NOT-DELETE splicer.end(ccafe.eg.PortTranslatorStarter._includes)
++// DO-NOT-DELETE splicer.end(ccafe.eg.PortTranslatorStarter._hincludes)
+ 
+ namespace ccafe { 
+   namespace eg { 
+@@ -176,8 +176,8 @@ namespace ccafe {
+   } // end namespace eg
+ } // end namespace ccafe
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe.eg.PortTranslatorStarter._misc)
++// DO-NOT-DELETE splicer.begin(ccafe.eg.PortTranslatorStarter._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe.eg.PortTranslatorStarter._misc)
++// DO-NOT-DELETE splicer.end(ccafe.eg.PortTranslatorStarter._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/PrinterComponent/ccafe0_PrinterComponent_Impl.hxx b/cxx/dc/babel.new/component/PrinterComponent/ccafe0_PrinterComponent_Impl.hxx
+index d7e175a..6464bb4 100644
+--- a/cxx/dc/babel.new/component/PrinterComponent/ccafe0_PrinterComponent_Impl.hxx
++++ b/cxx/dc/babel.new/component/PrinterComponent/ccafe0_PrinterComponent_Impl.hxx
+@@ -34,14 +34,14 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe0.PrinterComponent._includes)
++// DO-NOT-DELETE splicer.begin(ccafe0.PrinterComponent._hincludes)
+ 
+ #include <stdio.h>
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ #include "dc/babel.new/component/StringConsumerPort/server/ccafe3_StringConsumerPort.hxx"
+ #include "util/IO.h"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe0.PrinterComponent._includes)
++// DO-NOT-DELETE splicer.end(ccafe0.PrinterComponent._hincludes)
+ 
+ namespace ccafe0 { 
+ 
+@@ -120,8 +120,8 @@ namespace ccafe0 {
+ 
+ } // end namespace ccafe0
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe0.PrinterComponent._misc)
++// DO-NOT-DELETE splicer.begin(ccafe0.PrinterComponent._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe0.PrinterComponent._misc)
++// DO-NOT-DELETE splicer.end(ccafe0.PrinterComponent._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/SCPProxy/ccafe0_SCPProxy_Impl.hxx b/cxx/dc/babel.new/component/SCPProxy/ccafe0_SCPProxy_Impl.hxx
+index f3c4fb0..735ef23 100644
+--- a/cxx/dc/babel.new/component/SCPProxy/ccafe0_SCPProxy_Impl.hxx
++++ b/cxx/dc/babel.new/component/SCPProxy/ccafe0_SCPProxy_Impl.hxx
+@@ -37,14 +37,14 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe0.SCPProxy._includes)
++// DO-NOT-DELETE splicer.begin(ccafe0.SCPProxy._hincludes)
+ 
+ #include <stdio.h>
+ #include "dc/babel.new/babel-cca/AllBabelCCA.hxx"
+ #include "dc/babel.new/component/StringConsumerPort/server/ccafe3_StringConsumerPort.hxx"
+ #include "util/IO.h"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe0.SCPProxy._includes)
++// DO-NOT-DELETE splicer.end(ccafe0.SCPProxy._hincludes)
+ 
+ namespace ccafe0 { 
+ 
+@@ -137,8 +137,8 @@ namespace ccafe0 {
+ 
+ } // end namespace ccafe0
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe0.SCPProxy._misc)
++// DO-NOT-DELETE splicer.begin(ccafe0.SCPProxy._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe0.SCPProxy._misc)
++// DO-NOT-DELETE splicer.end(ccafe0.SCPProxy._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/ServiceRegistryTest/ccafe2_ServiceRegistryTest_Impl.hxx b/cxx/dc/babel.new/component/ServiceRegistryTest/ccafe2_ServiceRegistryTest_Impl.hxx
+index c38700e..b395be5 100644
+--- a/cxx/dc/babel.new/component/ServiceRegistryTest/ccafe2_ServiceRegistryTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/ServiceRegistryTest/ccafe2_ServiceRegistryTest_Impl.hxx
+@@ -37,13 +37,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe2.ServiceRegistryTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe2.ServiceRegistryTest._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include <gov_cca.hxx>
+ #include <gov_cca_ports.hxx>
+ #include <vector>
+ #include <map>
+-// DO-NOT-DELETE splicer.end(ccafe2.ServiceRegistryTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe2.ServiceRegistryTest._hincludes)
+ 
+ namespace ccafe2 { 
+ 
+@@ -180,8 +180,8 @@ namespace ccafe2 {
+ 
+ } // end namespace ccafe2
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe2.ServiceRegistryTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe2.ServiceRegistryTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe2.ServiceRegistryTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe2.ServiceRegistryTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/SimpleProxyTest/ccafe2_SimpleProxyTest_Impl.hxx b/cxx/dc/babel.new/component/SimpleProxyTest/ccafe2_SimpleProxyTest_Impl.hxx
+index 982fbc4..568f4ea 100644
+--- a/cxx/dc/babel.new/component/SimpleProxyTest/ccafe2_SimpleProxyTest_Impl.hxx
++++ b/cxx/dc/babel.new/component/SimpleProxyTest/ccafe2_SimpleProxyTest_Impl.hxx
+@@ -37,13 +37,13 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe2.SimpleProxyTest._includes)
++// DO-NOT-DELETE splicer.begin(ccafe2.SimpleProxyTest._hincludes)
+ // Put additional includes or other arbitrary code here...
+ #include <gov_cca.hxx>
+ #include <gov_cca_ports.hxx>
+ #include <vector>
+ #include <map>
+-// DO-NOT-DELETE splicer.end(ccafe2.SimpleProxyTest._includes)
++// DO-NOT-DELETE splicer.end(ccafe2.SimpleProxyTest._hincludes)
+ 
+ namespace ccafe2 { 
+ 
+@@ -203,8 +203,8 @@ namespace ccafe2 {
+ 
+ } // end namespace ccafe2
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe2.SimpleProxyTest._misc)
++// DO-NOT-DELETE splicer.begin(ccafe2.SimpleProxyTest._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe2.SimpleProxyTest._misc)
++// DO-NOT-DELETE splicer.end(ccafe2.SimpleProxyTest._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/StarterComponent/ccafe1_StarterComponent_Impl.hxx b/cxx/dc/babel.new/component/StarterComponent/ccafe1_StarterComponent_Impl.hxx
+index 28d8f12..53da3ea 100644
+--- a/cxx/dc/babel.new/component/StarterComponent/ccafe1_StarterComponent_Impl.hxx
++++ b/cxx/dc/babel.new/component/StarterComponent/ccafe1_StarterComponent_Impl.hxx
+@@ -34,14 +34,14 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe1.StarterComponent._includes)
++// DO-NOT-DELETE splicer.begin(ccafe1.StarterComponent._hincludes)
+ 
+ #include "dc/babel.new/component/StringConsumerPort/server/ccafe3_StringConsumerPort.hxx"
+ #include "dc/babel.new/babel-cca/server/ccaffeine_TypeMap.hxx"
+ #include "gov_cca_ports_GoPort.hxx"
+ #include "util/IO.h"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe1.StarterComponent._includes)
++// DO-NOT-DELETE splicer.end(ccafe1.StarterComponent._hincludes)
+ 
+ namespace ccafe1 { 
+ 
+@@ -120,8 +120,8 @@ namespace ccafe1 {
+ 
+ } // end namespace ccafe1
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe1.StarterComponent._misc)
++// DO-NOT-DELETE splicer.begin(ccafe1.StarterComponent._hmisc)
+ // Put miscellaneous things here...
+-// DO-NOT-DELETE splicer.end(ccafe1.StarterComponent._misc)
++// DO-NOT-DELETE splicer.end(ccafe1.StarterComponent._hmisc)
+ 
+ #endif
+diff --git a/cxx/dc/babel.new/component/TestMPI/ccafe6_TestMPI_Impl.hxx b/cxx/dc/babel.new/component/TestMPI/ccafe6_TestMPI_Impl.hxx
+index a1934b4..e3019ec 100644
+--- a/cxx/dc/babel.new/component/TestMPI/ccafe6_TestMPI_Impl.hxx
++++ b/cxx/dc/babel.new/component/TestMPI/ccafe6_TestMPI_Impl.hxx
+@@ -37,7 +37,7 @@
+ #endif
+ 
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe6.TestMPI._includes)
++// DO-NOT-DELETE splicer.begin(ccafe6.TestMPI._hincludes)
+ 
+ #include "util/IO.h"
+ #include "dc/babel.new/babel-cca/server/ccaffeine_ports_MPIService.hxx"
+@@ -45,7 +45,7 @@
+ #include "dc/babel.new/babel-cca/server/ccaffeine_CCAException.hxx"
+ #include "gov_cca_ports.hxx"
+ 
+-// DO-NOT-DELETE splicer.end(ccafe6.TestMPI._includes)
++// DO-NOT-DELETE splicer.end(ccafe6.TestMPI._hincludes)
+ 
+ namespace ccafe6 { 
+ 
+@@ -176,8 +176,8 @@ namespace ccafe6 {
+ 
+ } // end namespace ccafe6
+ 
+-// DO-NOT-DELETE splicer.begin(ccafe6.TestMPI._misc)
+-// Insert-Code-Here {ccafe6.TestMPI._misc} (miscellaneous things)
+-// DO-NOT-DELETE splicer.end(ccafe6.TestMPI._misc)
++// DO-NOT-DELETE splicer.begin(ccafe6.TestMPI._hmisc)
++// Insert-Code-Here {ccafe6.TestMPI._hmisc} (miscellaneous things)
++// DO-NOT-DELETE splicer.end(ccafe6.TestMPI._hmisc)
+ 
+ #endif
