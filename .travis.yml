@@ -3,6 +3,10 @@ os:
 # - linux
 - osx
 env:
+  matrix:
+  - NUMPY_VERSION="1.11"
+  - NUMPY_VERSION="1.12"
+  - NUMPY_VERSION="1.13"
   global:
   - THIS_PACKAGE=ccaffeine
   - BUILD_STR="dev"
@@ -14,7 +18,7 @@ install:
 - bash ci/travis/install_python.sh $HOME/miniconda
 - export PATH="$HOME/miniconda/bin:$PATH"
 script:
-- conda build recipe -c conda-forge -c csdms-stack
+- conda build ./recipe --numpy=$NUMPY_VERSION -c csdms-stack -c conda-forge
 after_success:
 - if [[ $TRAVIS_BRANCH == "master" ]]; then export CHANNEL="main"; fi
 - bash ci/travis/deploy_to_anaconda.sh $THIS_PACKAGE
