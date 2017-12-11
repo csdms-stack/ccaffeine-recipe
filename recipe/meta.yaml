@@ -14,7 +14,7 @@ source:
 requirements:
   build:
     - python >=2.7.13
-    - numpy x.x
+    - numpy
     - libxml2
     - cca-spec-babel
     - cca-babel <2
@@ -24,7 +24,7 @@ requirements:
 
   run:
     - python >=2.7.13
-    - numpy x.x
+    - numpy
     - libxml2
     - cca-spec-babel
     - cca-babel <2
