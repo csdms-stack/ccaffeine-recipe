@@ -32,4 +32,4 @@ requirements:
     - ncurses
 
 build:
-  number: 0
+  number: 1
