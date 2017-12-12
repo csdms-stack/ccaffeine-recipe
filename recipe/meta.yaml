@@ -10,6 +10,7 @@ source:
   patches:
     - cxxflags-linux.patch [linux]
     - cxxflags-osx.patch [osx]
+    - env_cxxflags.patch
 
 requirements:
   build:
