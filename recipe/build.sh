@@ -13,7 +13,7 @@ if [ ! -d "$PREFIX/lib64" ]; then
   ln -s "$PREFIX/lib" "$PREFIX/lib64"
 fi
 
-export CXXFLAGS="--std=c++11"
+export CXXFLAGS="-w -std=c++98"
 
 ./configure --prefix=$PREFIX --without-mpi --with-boost=$PREFIX/include
 make
